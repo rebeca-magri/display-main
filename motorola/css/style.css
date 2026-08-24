@@ -5,3 +5,14 @@
     box-sizing: border-box;
 }
 
+.header{
+    display: flex;
+}
+
+.header_h1{
+    color: black;
+}
+
+.header_h2{
+    color:deepskyblue; 
+}
