@@ -8,13 +8,13 @@
 .body-container{
     display: flex;
     flex-direction: row;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .main-right{
-    height: 50vh;
-    width: 50vw;
+    height: 68vh;
+    width: 68vw;
     align-items: center; 
     text-align: justify;  
     flex-direction: column; 
@@ -47,6 +47,12 @@
 
 .main-section-1__right, .main-section-2__right, .main-section-3__right{
     font-family:Arial, Helvetica, sans-serif;
+    padding: 25px;
+    padding-top: 35px;
+}
+
+.main-section-1__right, .main-section-2__right{
+    display: inline-block;
 }
 
 .main-section__h3{
@@ -61,11 +67,14 @@
     flex-direction: row-reverse; 
     align-items: center;         
     justify-content: flex-end; 
-    height: 50vh;
-    width: 50vw;
+    height: 32vh;
+    width: 32vw;
 }
 
 .main-container__left{
     height: auto;
     width: 100%;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
 }
