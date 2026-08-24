@@ -7,11 +7,18 @@
 
 .body-container{
     display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-right{
+    height: 50vh;
+    width: 50vw;
 }
 
 .header{
-    height: 100vh;
-    width: 50vw;
+    height: 80px;
+    width: 50px;
 }
 
 .header-h1{
@@ -26,12 +33,12 @@
     font-size: 300%;
 }
 
-.main{
-    height: 100vh;
+.main-left{
+    height: 50vh;
     width: 50vw;
 }
 
-.main-container{
-    height: 90px;
-    width: 90px;
+.main-container__left{
+    height: 80%;
+    width: 80%;
 }
