@@ -1,0 +1,97 @@
+/* Reset padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    background-color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    height: 300px;
+    color: darkgreen;
+
+}
+
+.body-container {
+    background-color: brown;
+}
+
+
+
+.header-container {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background-color: darkcyan;
+    /* text-align:center; */
+}
+
+.header-container a {
+    display: inline-block;
+    background-color: darkblue;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Pseudo classe que identifica a posição do cursor do mouse */
+.header-container a:hover {
+    background-color: deeppink;
+    border: 2px solid darkmagenta;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    width: 500px;
+    background-color: darkorange;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+.section01 {
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    padding-left: 20px;
+    background-color: crimson;
+    color: #fff;
+
+    /* Borda Abreviado */
+    border: black dashed 3px;
+    /* Display none: Não aparece na tela 
+    Display inline: Elementos são em linha e não aceita altura e largura (ocupa apenas o seu espaço)
+    Display block: Elementos são um abaixo do outro e aceita largura e altura (ocupa a linha inteira) --> PADRÃO
+    Display inline-block: Elementos em linha + largura e altura */
+}
+
+.section01--titulo {
+    margin-bottom: 10px;
+}
+
+.link-lista {
+    font-size: medium;
+    line-height: 30px;
+}
