@@ -5,14 +5,33 @@
     box-sizing: border-box;
 }
 
-.header{
+.body-container{
     display: flex;
 }
 
-.header_h1{
-    color: black;
+.header{
+    height: 100vh;
+    width: 50vw;
 }
 
-.header_h2{
-    color:deepskyblue; 
+.header-h1{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:400%;
+}
+
+.header-h2{
+    color:deepskyblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+}
+
+.main{
+    height: 100vh;
+    width: 50vw;
+}
+
+.main-container{
+    height: 90px;
+    width: 90px;
 }
