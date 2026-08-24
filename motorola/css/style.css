@@ -13,15 +13,18 @@
 }
 
 .main-right{
+    display: flex;
     height: 68vh;
     width: 68vw;
     align-items: center; 
     text-align: justify;  
     flex-direction: column; 
     justify-content: center;
+    padding: 45px;
 }
 
 .header{
+    display: flex;
     height: 40%;
     width: auto;
     flex-direction: column;
@@ -32,8 +35,8 @@
 .header-h1{
     color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:400%;
-    height: 100%;
+    font-size:500%;
+    height: 50%;
     width: auto;
 }
 
@@ -43,24 +46,33 @@
     font-size: 300%;
     height: 50%;
     width: auto;
+    padding-top: 110px;
+    padding-bottom: 50px;
 }
 
-.main-section-1__right, .main-section-2__right, .main-section-3__right{
-    font-family:Arial, Helvetica, sans-serif;
-    padding: 25px;
-    padding-top: 35px;
+.main-section{
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: nowrap ; 
+    gap: 20px;                     
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
 }
 
-.main-section-1__right, .main-section-2__right{
-    display: inline-block;
-}
-
-.main-section__h3{
+.main-article__h3{
     font-size: 250%;
 }
 
-.main-section__p{
+.main-article__p{
     font-size: 150%;
+}
+
+.main-footer-3__right{
+    display: block ;                 
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
 }
 
 .main-left{
@@ -72,6 +84,7 @@
 }
 
 .main-container__left{
+    display: flex;
     height: auto;
     width: 100%;
     margin: 15px;
