@@ -7,14 +7,22 @@
     width: 100%;
 }
 
-.color-section_sidebar {}
+.color-section_sidebar {
+    height: 55px;
+    width: auto;
+    background-color: blue;
+    color: aliceblue;
+}
 
 .color-section_title {}
 
-.color-section_menu {}
+.color-section_menu {
+}
 
 .color-section_link {}
 
-.color-section_link--active {}
+.color-section_link--active {
+    
+}
 
 .color-section_link--active:hover {}
