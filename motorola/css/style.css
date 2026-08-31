@@ -40,6 +40,11 @@
     width: auto;
 }
 
+.header-h1 sup{
+    color: blue;
+    font-size: 30px;
+}
+
 .header-h2{
     display: block;
     color:deepskyblue;
@@ -66,8 +71,17 @@
     font-size: 250%;
 }
 
+.main-article__h3 sup{
+    font-size: 20px;
+    color: blue;
+}
+
 .main-article__p{
     font-size: 150%;
+}
+
+.main-article__p sup{
+    color: blue;
 }
 
 .main-footer-3__right{
