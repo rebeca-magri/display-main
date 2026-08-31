@@ -70,6 +70,7 @@
 
     /* Efeito de transição suave */
     transition: transform 0.25s ease;
+
 }
 
 .color-section_bar:hover{
@@ -79,7 +80,10 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
-
+.color-section_bar--p{
+    display: flex;
+    text-align: center;
+}
 
 .color-section_bar--rgb-1{
     background-color: var(--color-rgb-1)
