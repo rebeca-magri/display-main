@@ -35,5 +35,12 @@
     --color-google-2: #FBBC05; 
     --color-google-3: #34A853;
     --color-google-4: #EA4335; 
+
+    /* Paleta do Sistema FACEBOOK (Simulado em RGB/Hex) */
+    --color-facebook-1: #3B5998; 
+    --color-facebook-2: #8B9DC3; 
+    --color-facebook-3: #DFE3EE; 
+    --color-facebook-4: #F7F7F7; 
+    --color-facebook-5: #FFFFFF; 
 }
 

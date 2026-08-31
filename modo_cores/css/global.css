@@ -80,9 +80,15 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 }
 
-.color-section_bar--p{
-    display: flex;
-    text-align: center;
+.color-section_bar span{
+    background-color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 12px;
+    visibility: hidden;
+}
+
+.color-section_bar :hover span{
+    visibility: visible;
 }
 
 .color-section_bar--rgb-1{
@@ -150,4 +156,20 @@
 }
 .color-section_bar--google-4{
     background-color: var(--color-google-4);
+}
+
+.color-section_bar--facebook-1{
+    background-color: var(--color-facebook-1)
+}
+.color-section_bar--facebook-2{
+    background-color: var(--color-facebook-2)
+}
+.color-section_bar--facebook-3{
+    background-color: var(--color-facebook-3)
+}
+.color-section_bar--facebook-4{
+    background-color: var(--color-facebook-4)
+}
+.color-section_bar--facebook-5{
+    background-color: var(--color-facebook-5)
 }
