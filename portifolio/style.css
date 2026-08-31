@@ -1,18 +1,28 @@
 /* Reset padrão */
 
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
 
+:root{
+    --bg-color-container: gold;
+    --banana: blanchedalmond;
+
+    --fonte-padrao: Arial;
+
+    --border-header-container: 2px solid red;
+}
+
 html{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--fonte-padrao);
 }
 
 .container {
-    background-color: gold;
+    background-color: var(--bgcolor-container);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 300px;
     height: 300px;

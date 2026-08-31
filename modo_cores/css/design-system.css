@@ -1,27 +1,29 @@
-.color-section_bar color-section_bar--rgb-1 {
+:root{
+
+    /* Cores Globais da Interface (Menu Lateral) */
+    --ui-bg-sidebar: #010d2e;
+    --ui-border: #29292e;
+    --ui-text-title: #ffffff;
+    --ui-text-link: #a8a8b3;
+    --ui-link-hover-bg: #3b3b45;
+    --ui-link-active-bg: #7500c8;
+    --ui-link-active-text: #ffffff;
+
+    /* Paleta do Sistema RGB */
+    --color-rgb-1: rgb(255, 0, 0);
+    --color-rgb-2: rgb(0, 255, 0);
+    --color-rgb-3: rgb(0, 0, 255);
+    --color-rgb-4: rgb(255, 255, 0);
+    --color-rgb-5: rgb(0, 255, 255);
+    --color-rgb-6: rgb(255, 0, 255);
+
+    /* Paleta do Sistema CMYK (Simulado em RGB/Hex) */
+    --color-cmyk-1: #e60000; 
+    --color-cmyk-2: #006b00; 
+    --color-cmyk-3: #0000ae; 
+    --color-cmyk-4: #dfdf05; 
+    --color-cmyk-5: #03e6e6; 
+    --color-cmyk-6: #d900d9; 
 
 }
 
-.color-section_bar color-section_bar--rgb-2 {
-
-}
-
-.color-section_bar color-section_bar--rgb-3 {}
-
-.color-section_bar color-section_bar--rgb-4 {}
-
-.color-section_bar color-section_bar--rgb-5 {}
-
-.color-section_bar color-section_bar--rgb-6 {}
-
-.color-section_bar color-section_bar--cmyk-1 {}
-
-.color-section_bar color-section_bar--cmyk-2 {}
-
-.color-section_bar color-section_bar--cmyk-3 {}
-
-.color-section_bar color-section_bar--cmyk-4 {}
-
-.color-section_bar color-section_bar--cmyk-5 {}
-
-.color-section_bar color-section_bar--rgb-6 {}
