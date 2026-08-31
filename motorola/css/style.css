@@ -41,6 +41,7 @@
 }
 
 .header-h2{
+    display: block;
     color:deepskyblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 300%;
@@ -51,9 +52,9 @@
 }
 
 .main-section{
-    display: flex ;
-    flex-direction: row ;
-    flex-wrap: nowrap ; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     gap: 20px;                     
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +62,7 @@
 }
 
 .main-article__h3{
+    padding-top: 35px;
     font-size: 250%;
 }
 
