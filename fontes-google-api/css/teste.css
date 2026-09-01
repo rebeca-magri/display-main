@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    justify-content: center;  
+    align-items: center;
+    height: 70px;
+    background-color:lightgrey;
+}
+
+.header-h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.main{
+}
